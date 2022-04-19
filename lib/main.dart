@@ -19,8 +19,10 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [MyText(), MyText(), MyText()],
+            children: [
+              Image(image: AssetImage('images/logo2.png')),
+              Text('HALLO WORLD!!'),
+            ],
           ),
         ),
       ),
@@ -28,11 +30,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyText extends StatelessWidget {
-  const MyText({Key? key}) : super(key: key);
+// class MyText extends StatelessWidget {
+//   const MyText({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return const Text("Hello WOrsld");
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return const Text("Hello WOrsld");
+//   }
+// }
