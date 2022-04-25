@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               Image(image: AssetImage('images/logo2.png')),
-              Text('HALLO WORLD!!'),
+              Text('HALLO asdasd!!'),
             ],
           ),
         ),
